@@ -1,0 +1,25 @@
+{
+    "name": "steel-archer/rating-chgk-plus",
+    "description": "PHP implementation of some things that can't be provided via rating.chgk.info API\n",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Bohdan Sokulskyi",
+            "email": "steelarcher@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/dom-crawler": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteelArcher\\RatingChgkPlus\\": "src/",
+            "SteelArcher\\RatingChgkPlus\\Geo\\": "src/Geo/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
